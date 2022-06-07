@@ -1,0 +1,73 @@
+@import url("./reset.css");
+
+body {
+  width: 1280px;
+  height: 720px;
+  background: radial-gradient(
+      96.74% 276.79% at 3.59% 5.28%,
+      #f0f4ff 0%,
+      #a5b6ee 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.logo {
+  margin: 100px auto;
+}
+
+.logo,
+.logo-img {
+  max-width: 244px;
+  height: 0 auto;
+}
+
+.main {
+  margin: 0px auto;
+
+  width: 400px;
+  height: 360px;
+
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+}
+
+.title {
+  text-align: center;
+  padding: 48px 163px 0;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.box-alltime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 57px 58px 40px;
+}
+.box-alltime section + section {
+  margin-left: 22px;
+}
+.timebox {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  border: 1px solid #354971;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.box-btn {
+  padding: 0 82px 40px;
+}
+.btn {
+  width: 112px;
+  padding: 16px 23.5px 15px;
+  font-weight: 700;
+  font-size: 14px;
+  background: #324577;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  color: #617199;
+}
