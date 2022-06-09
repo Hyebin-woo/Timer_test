@@ -12,19 +12,28 @@
       <img class="logo-img" src="./images/Group.png" alt="위니브로고" />
     </header>
     <div>
-      <section class="main">
+      <div class="main">
         <h1 class="title">TIMER</h1>
+        <div class="line"></div>
+
         <div class="box-alltime">
-          <section class="timebox hour">00</section>
-          <section class="timebox minute">00</section>
-          <section class="timebox second">00</section>
+          <span class="time hour"></span>
+
+          <span class="time minute"></span>
+
+          <span class="time second"></span>
         </div>
+
         <div class="box-btn">
-          <button class="btn btn-start">start</button>
-          <button class="btn btn-reset">reset</button>
+          <button class="btn btn-start">
+            <img src="./images/start-default.png" alt="시작버튼" />
+          </button>
+          <button class="btn btn-reset">
+            <img src="./images/reset-default.png" alt="초기화버튼" />
+          </button>
         </div>
-      </section>
+      </div>
     </div>
-    <script class="./script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
